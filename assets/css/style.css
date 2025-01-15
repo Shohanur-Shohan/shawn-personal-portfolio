@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*-----------------------------------------------------------------------------------
+
+  Theme Name: Shawn - Personal Portfolio/CV
+  Author: 
+  Support: 
+  Description: 
+  Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+/************ TABLE OF CONTENTS ***************
+
+
+/*----------------------------------------*/
+/* VARIBALES CSS START
+/*----------------------------------------*/
+:root {
+  --primary: #0E0F11;
+  --secondary: #0E0F11;
+  --border: #0E0F11;
+  --bg: #0E0F11;
+  --theme: #AFF42B;
+  --black: #0E0F11;
+  --black-2: #0E0F11;
+  --white: #FFFFFF;
+  --white-2: #FFFFFF;
+  --action: #AFF42B;
+}
+
+/*----------------------------------------*/
+/* TYPOGRAPHY CSS START
+/*----------------------------------------*/
+:root {
+  font-family: "Outfit", serif;
+}
+
+/* font-family: "Six Caps", serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: var(--font_instrumentsans); */
+  line-height: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  color: var(--primary);
+  line-height: 1.22;
+  font-family: var(--font_instrumentsans);
+  font-weight: 500;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: inherit;
+}
